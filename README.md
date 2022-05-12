@@ -5,5 +5,5 @@ Assignment 2 reposiory
 2016722077 성원진 (sww1012) 
 
 팀원 
-학번 박재우(minwooch) 
+2014722086 박재우(minwooch) 
 학번 한왕용(Github_id) 
