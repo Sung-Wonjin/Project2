@@ -16,7 +16,7 @@ void sizecmp();
 void blockcmp();
 void datecmp();
 void timecmp();
-char buf[50];
+
 int main(){
     filestat1();
     filestat2();
@@ -62,7 +62,7 @@ void filetime2(){
     
 }
 
-//두 개의 파일 크기를 비교하는 함수 작성
+//두 개의 파일 크기를 비교하는 함수 작
 void sizecmp(){
     
 }
