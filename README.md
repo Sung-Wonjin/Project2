@@ -6,4 +6,4 @@ Assignment 2 reposiory
 
 팀원 
 2014722086 박재우(minwooch) 
-학번 한왕용(Github_id) 
+2019202094 한왕용(Github_id) 
