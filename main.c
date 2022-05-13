@@ -22,8 +22,6 @@ int main(){
     filestat2();
     filetime1();
     filetime2();
-    printf("%d/%d/%d\n",time1.tm_hour,time1.tm_min, time1.tm_sec);
-    printf("%d/%d/%d\n",time2.tm_hour,time2.tm_min, time2.tm_sec);
     sizecmp();
     blockcmp();
     datecmp();
