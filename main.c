@@ -3,6 +3,7 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include <time.h>
+#include <string.h>
 
 struct stat stat1, stat2;
 struct tm *time1, *time2;
@@ -29,12 +30,20 @@ int main(){
 
 //파일 1의 정보를 가져오는 함수 작성
 void filestat1(){
-    
+    char buf[256];
+    int bufsize = sizeof(buf);
+    getcwd(buf, bufsize);
+    strcat(buf, "/file1");
+    int stat(buf,stat1);
 }
 
 //파일 2의 정보를 가져오는 함수 작성
 void filestat2(){
-    
+    char buf[256];
+    int bufsize = sizeof(buf);
+    getcwd(buf, bufsize);
+    strcat(buf, "/file2");
+    int stat(buf,stat2);
 }
 
 //파일 1의 시간 정보를 가져오는 함수 작성
@@ -79,7 +88,7 @@ void datecmp(){
     else {
         printf("same time");
     }
-    printf("\n\n")
+    printf("\n\n");
 }
 
 //두 개의 파일 수정 시간을 비교하는 함수 작성
